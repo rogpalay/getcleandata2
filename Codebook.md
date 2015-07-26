@@ -43,7 +43,7 @@ with the same name in the original data set.  The deeper meanings for those
 variables will be found in the documentation of the original data set.
 The justification for maintaining the variable names as they we used
 in the original set is in the README.md file.
-
+```
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
@@ -123,3 +123,4 @@ fBodyBodyGyroMag-meanFreq()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
 fBodyBodyGyroJerkMag-meanFreq()
+```
