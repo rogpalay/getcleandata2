@@ -25,7 +25,7 @@ set under that same vaiable name and
 for the particular subject and activity (Action as it is called here).
 
 ##Identification variables
-
+```
 Subj_num
   Holds the number assigned to the subject in the original data
 Action
@@ -33,13 +33,15 @@ Action
 train_test
   Holds the value "train" if this subject was in the training group, or it
   holds the value "test" if this subject was in the test group
-  
+```
 
 ##Computed variables
 
 
 Each of the following variables holds the computed mean of the variables 
-with the same name in the original data set.  The deeper meanings for those
+with the same name in the original data set, where the mean is for the 
+values for a particuar subject and a particular activity.
+The deeper meanings and units for those
 variables will be found in the documentation of the original data set.
 The justification for maintaining the variable names as they we used
 in the original set is in the README.md file.
